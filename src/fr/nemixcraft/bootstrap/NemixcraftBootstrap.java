@@ -51,7 +51,7 @@ public class NemixcraftBootstrap {
 		splash = new SplashScreen("Nemixcraft", getResource("icon.png"));
 		splash.setLayout(null);
 		bar = new SColoredBar(Swinger.getTransparentWhite(100), Swinger.getTransparentWhite(175));
-		bar.setBounds(0, 335, 372, 14);
+		bar.setBounds(4, 271, 386, 9);
 		splash.add(bar);
 		bar.setVisible(true);
 		splash.setVisible(true);
