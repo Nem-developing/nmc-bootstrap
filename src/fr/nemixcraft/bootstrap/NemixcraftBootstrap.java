@@ -60,7 +60,7 @@ public class NemixcraftBootstrap {
 	}
 	
 	private static void doUpdate() throws Exception {
-		SUpdate su = new SUpdate("http://nemixcraft.com/minecraft/bootstrap/", new File(SC_DIR, "Launcher"));
+		SUpdate su = new SUpdate("https://nemixcraft.com/minecraft/bootstrap/", new File(SC_DIR, "Launcher"));
 		su.getServerRequester().setRewriteEnabled(true);
 		su.addApplication(new FileDeleter());
 		
